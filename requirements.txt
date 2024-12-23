@@ -1,9 +1,9 @@
 dill==0.3.5.1
 from-root==1.0.2
-notebook==7.0.0a7 # error is here with this library
+notebook #notebook==7.0.0a7 # error is here with this library the commented has error while downloading
 boto3
 mypy-boto3-s3
-flask-cors 
+flask-cors
 flask
 
 # YOLOv5 requirements
@@ -18,7 +18,7 @@ pillow>=10.3.0
 psutil  # system resources
 PyYAML>=5.3.1
 requests>=2.32.2
-scipy>=1.4.1 ### main issue is here with this library
+scipy #scipy>=1.4.1 ### main issue is here with this library
 thop>=0.1.1  # FLOPs computation
 torch>=1.8.0  # see https://pytorch.org/get-started/locally (recommended)
 torchvision>=0.9.0

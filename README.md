@@ -16,3 +16,8 @@ conda activate signlang
     bash
 pip install -r requirements.txt
 '''
+
+### For Github
+`git add .`
+`git commit -m "message"`
+`git push -u origin main`
